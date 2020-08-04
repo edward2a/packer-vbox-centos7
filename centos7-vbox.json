@@ -34,7 +34,7 @@
         "initrdefi /images/pxeboot/initrd.img<enter><wait>",
         "boot<enter>"
       ],
-      "headless": false,
+      "headless": true,
       "shutdown_command": "/sbin/halt -p"
     }
   ]
