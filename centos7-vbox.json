@@ -10,10 +10,10 @@
       "iso_checksum": "{{ user `checksum` }}",
       "iso_checksum_type": "sha256",
       "guest_additions_sha256": "62a0c6715bee164817a6f58858dec1d60f01fd0ae00a377a75bbf885ddbd0a61",
-      "vm_name": "packer-builder-centos7",
+      "vm_name": "packer-build-centos7-{{ isotime \"20060120.1504\" }}",
       "guest_os_type": "RedHat_64",
       "ssh_username": "root",
-      "ssh_password": "packer",
+      "ssh_password": "vbox-root",
       "ssh_port": 22,
       "ssh_wait_timeout": "600s",
       "vboxmanage": [
